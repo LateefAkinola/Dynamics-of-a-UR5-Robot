@@ -1,8 +1,15 @@
-The UR5 is a popular 6-DOF industrial robot arm.  The robot has geared motors at each joint, but in this project, we ignore the effects of gearing, such as friction and the increased apparent inertia of the rotor.
+# Dynamics of a UR5 Robot
+The UR5 is a popular 6-DOF industrial robot arm.  The robot has geared motors at each joint, but in this project, we ignore the effects of gearing, such as friction and the increased apparent inertia of the rotor. The relevant kinematic and inertial parameters of the UR5 are given in the UR5_parameters.py file.
 
-The relevant kinematic and inertial parameters of the UR5 are given in the UR5_parameters.py file.
 
-GOAL: To write code that simulates the motion of the UR5 for a specified amount of time (in seconds), from a specified initial configuration (at zero velocity), when zero torques are applied to the joints.  In other words, the robot simply falls in gravity. Gravity is g=9.81m/s^2 in the -Z direction, i.e., gravity acts downward. The motion should be simulated with at least 100 integration steps per second.  The program should calculate and record the robot joint angles at each step. This data should be saved as a .csv file, where each row has six numbers separated by commas. This .csv file is suitable for animation with the CoppeliaSim UR5 csv animation scene.
+https://github.com/LateefAkinola/Dynamics-of-a-UR5-Robot/assets/105966848/7bc46122-1996-4138-929d-af1950d5198f
+
+https://github.com/LateefAkinola/Dynamics-of-a-UR5-Robot/assets/105966848/32b9234e-f7d3-409d-8b1e-9176504add78
+
+
+
+## GOAL:
+To write code that simulates the motion of the UR5 for a specified amount of time (in seconds), from a specified initial configuration (at zero velocity), when zero torques are applied to the joints.  In other words, the robot simply falls in gravity. Gravity is g=9.81m/s^2 in the -Z direction, i.e., gravity acts downward. The motion should be simulated with at least 100 integration steps per second.  The program should calculate and record the robot joint angles at each step. This data should be saved as a .csv file, where each row has six numbers separated by commas. This .csv file is suitable for animation with the CoppeliaSim UR5 csv animation scene.
 
 Two simulations were performed and the videos of each were recorded:
 
